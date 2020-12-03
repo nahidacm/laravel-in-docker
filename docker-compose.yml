@@ -16,6 +16,19 @@ services:
     networks:
       - laravel
 
+  phpmyadmin:
+    image: 'phpmyadmin/phpmyadmin:latest'
+    container_name: bombazar-phpmyadmin
+    restart: unless-stopped
+    ports:
+      - 3030:80
+    environment:
+      - PMA_HOST=db
+      - PMA_USER=${DB_USERNAME}
+      - PMA_PASSWORD=${DB_PASSWORD}
+    networks:
+      - laravel
+
   db:
     image: mysql:5.7
     container_name: laravel-db
