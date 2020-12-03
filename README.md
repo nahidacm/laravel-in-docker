@@ -39,4 +39,8 @@ Example:
 
 Now go to your browser and access your server’s domain name or IP address on port 8000:
 
-`http://localhost:8000`
+http://localhost:8000
+
+To access phpMyAdmin:
+
+http://localhost:3030
