@@ -6,6 +6,7 @@ Turn any existing laravel project into docker project.
 
 Copy the `docker-compose.yml`,`DockerFile` and `docker-compose` in your existing Laravel project root directory.
 
+**Initial SQL:**  `docker-compose/mysql/init_db.sql`
 
 ## Customization
 
@@ -30,7 +31,11 @@ When the build is finished, you can run the environment in background mode with:
 
 Run any command inside the app, use `docker-composer exec app`  
 
-Example: `docker-compose exec app php artisan key:generate`
+Example: 
+
+`docker-compose exec app composer install`
+
+`docker-compose exec app php artisan key:generate`
 
 Now go to your browser and access your server’s domain name or IP address on port 8000:
 
