@@ -1,6 +1,11 @@
 # laravel-in-docker
 Turn any existing laravel project into docker project.
 
+- **Persistent database**
+- **Persistent codebase** lets you use your favourite IDE/Editor.
+- **No file permission issue** inherits user and permission from the host machine.
+- **PhpMyAdmin** Out of the box
+
 ## Installation
 [Download](https://github.com/nahidacm/laravel-in-docker/archive/main.zip) and extract the Zip file. 
 
