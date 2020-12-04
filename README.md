@@ -1,7 +1,7 @@
 # laravel-in-docker
 Turn any existing laravel project into docker project.
 
-- **Persistent database**
+- **Persistent database** 
 - **Persistent codebase** lets you use your favourite IDE/Editor.
 - **No file permission issue** inherits user and permission from the host machine.
 - **PhpMyAdmin** Out of the box
@@ -49,3 +49,5 @@ http://localhost:8000
 To access phpMyAdmin:
 
 http://localhost:3030
+
+Codebase 
