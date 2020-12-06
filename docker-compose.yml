@@ -18,7 +18,7 @@ services:
 
   phpmyadmin:
     image: 'phpmyadmin/phpmyadmin:latest'
-    container_name: bombazar-phpmyadmin
+    container_name: laravel-phpmyadmin
     restart: unless-stopped
     ports:
       - 3030:80
