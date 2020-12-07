@@ -25,6 +25,21 @@ You may issue `echo $UID` in your console to see the uid and `whoami` to see the
 
 So make sure your Laravel project files with `.env` file is already there.
 
+## Sample .env settings
+
+`DB_CONNECTION=mysql`
+
+`DB_HOST=db`
+
+`DB_PORT=3306`
+
+`DB_DATABASE=laravel`
+
+`DB_USERNAME=root`
+
+`DB_PASSWORD=larapass`
+
+
 ## Build and Up
 Build the `app` image with the following command:
 
