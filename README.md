@@ -50,7 +50,10 @@ When the build is finished, you can run the environment in background mode with:
 `docker-compose up -d`
 
 Run any command inside the app, use `docker-composer exec app`  
-Or: `docker exec -it app bash` to enter the bash of of the container named app 
+
+Or: `docker exec -it laravel-app bash` to enter the bash of of the container named app 
+
+Login as root: `docker exec -u root -it laravel-app bash`
 
 Example: 
 
