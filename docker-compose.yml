@@ -42,7 +42,7 @@ services:
       SERVICE_NAME: mysql
     volumes:
       - ./docker-compose/mysql:/docker-entrypoint-initdb.d
-      - ./docker-compose/dbdata:/var/lib/mysql
+      - laravel-mysql-data:/var/lib/mysql
     networks:
       - laravel
 
@@ -61,3 +61,6 @@ services:
 networks:
   laravel:
     driver: bridge
+
+volumes:
+  laravel-mysql-data:
